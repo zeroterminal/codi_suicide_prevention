@@ -1,0 +1,30 @@
+/* 
+  *** IMPORT FONTS ***
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Geologica:wght@100;900&family=Kanit:wght@100&family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+
+.cairo {
+    font-family: 'Cairo', sans-serif;
+}
+
+.geologica {
+    font-family: 'Geologica', sans-serif;
+}
+
+.kanit {
+    font-family: 'Kanit', sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+* { 
+    transition: .3s all linear;
+}
