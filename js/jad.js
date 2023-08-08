@@ -32,3 +32,22 @@ CTA_button.onclick = function() {
 contact_button.onclick = function() {
     document.getElementById("contact").scrollIntoView(smooth);
 }
+
+
+
+
+const counter_section = document.getElementById("counter");
+const counter_number  = document.getElementById("counter_number");
+
+
+let counter = 1000000;
+
+function suiciders() {
+    let random = Math.floor(100000 + Math.random() * 3)
+    counter += random;
+
+}
+
+setInterval(suiciders, 600);
+
+counter_number.textContent = '${counter}';
