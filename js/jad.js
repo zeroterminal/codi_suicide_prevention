@@ -14,23 +14,23 @@ const contact_button   = document.getElementById("contact_button");
 
 // functions
 home_button.onclick = function() {
-    document.getElementById("home").scrollIntoView(smooth);
+    document.getElementById("home").scrollIntoView("smooth");
 }
 
 goal_button.onclick = function() {
-    document.getElementById("goal").scrollIntoView(smooth);
+    document.getElementById("goal").scrollIntoView("smooth");
 }
 
 gallery_button.onclick = function() {
-    document.getElementById("gallery").scrollIntoView(smooth);
+    document.getElementById("gallery").scrollIntoView("smooth");
 }
 
 CTA_button.onclick = function() {
-    document.getElementById("CTA").scrollIntoView(smooth);
+    document.getElementById("CTA").scrollIntoView("smooth");
 }
 
 contact_button.onclick = function() {
-    document.getElementById("contact").scrollIntoView(smooth);
+    document.getElementById("contact").scrollIntoView("smooth");
 }
 
 
