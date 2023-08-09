@@ -1,8 +1,145 @@
-.counter {
-    margin: 0 auto; 
-    box-shadow: 0px 0px 10px #171717;
+html, body {
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Cairo', sans-serif;
+    
 }
 
-.counter-number {
-    font-size : 3em;
+header {
+    /* Muhie */
+    color: #fff;
+    width: 100%;
+    opacity: 0.8;
+    position: sticky;
+    background: #7657e6;
+    margin-top: -16px;
+    margin-bottom: -17px;
+    padding:0;
+    border:0;
+
+}
+
+header ul {
+    list-style: none;
+    text-align: center;
+    /* line-height: 5px; */
+}
+
+header ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.3em;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;    
+}
+
+header ul li a:hover {
+    text-shadow: 0px 0px 5px #fff, 0px 10px 25px #000;
+    font-weight:500;
+}
+
+#spacer {
+    height:70px;
+    width: 100%;
+
+}
+
+.active-link {
+    font-weight: bold;
+    text-shadow: 0px 5px 5px #333;
+}
+
+
+#top-banner {
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/images/Suicide.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-color: rgba(126, 3, 250, 0.666);     */
+    /* background: #7657e6; */
+}
+
+
+#head-quote p {
+    font-weight: bold;
+    font-family: 'Kanit';
+    color: #ffffff;
+}
+#head-quote {
+    display: block;
+    width: 70%;
+    border: 3px solid #fff;
+    background: rgba(159, 107, 232, 0.800);
+    margin: 0px auto;
+    text-align: center;
+    box-shadow:  0px 0px 100px #555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    color:#77cafa;
+}
+
+
+#counter {
+    margin: 0 auto; 
+    /* box-shadow: 0px 0px 10px #171717; */
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 1.3em;
+    text-shadow: 0px 3px 5px #000;
+}
+
+#counter-number {
+    font-size : 2em;
+    letter-spacing: 20px;
+    font-family: 'Kanit';
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#counter h3 {
+    color: #000;
+    text-shadow: none;
+    font-family: arial;
+}
+
+#pages {
+    text-align: center
+}
+
+#home {
+    background: url('../assets/images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 130vh;
+    margin-top: -70px;
+    color: #fff;
+    font-size: 3em;
+}
+
+#home {
+    background: url('../assets/images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 130vh;
+    margin-top: -70px;
+    color: #fff;
+    font-size: 3em;
+}
+
+#home h2 {
+    padding:0px;
+    margin: 0px;
 }

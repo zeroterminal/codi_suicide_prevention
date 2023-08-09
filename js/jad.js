@@ -37,17 +37,16 @@ contact_button.onclick = function() {
 
 
 const counter_section = document.getElementById("counter");
-const counter_number  = document.getElementById("counter_number");
+const counter_number  = document.getElementById("counter-number");
 
 
 let counter = 1000000;
 
 function suiciders() {
-    let random = Math.floor(100000 + Math.random() * 3)
+    let random = Math.floor(Math.random() * 2) + 1 ;
     counter += random;
-
+    
+    counter_number.textContent = counter;
 }
 
 setInterval(suiciders, 600);
-
-counter_number.textContent = '${counter}';
