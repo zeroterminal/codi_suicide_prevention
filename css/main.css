@@ -1,0 +1,314 @@
+html, body {
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Cairo', sans-serif;
+    background-color: #000 ;
+    
+}
+
+header {
+    /* Muhie */
+    color: #fff;
+    width: 100%;
+    opacity: 0.8;
+    position: sticky;
+    background: #7657e6;
+    /* margin-top: -16px; */
+    margin-bottom: -17px;
+    padding:0;
+    border:0;
+
+}
+
+header ul {
+    list-style: none;
+    text-align: center;
+    /* line-height: 5px; */
+}
+
+header ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.3em;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;    
+}
+
+header ul li a:hover {
+    text-shadow: 0px 0px 5px #fff, 0px 10px 25px #000;
+    font-weight:500;
+}
+
+#spacer {
+    height:70px;
+    width: 100%;
+
+}
+
+.active-link {
+    font-weight: bold;
+    text-shadow: 0px 5px 5px #333;
+}
+
+
+#top-banner {
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/images/Suicide.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-color: rgba(126, 3, 250, 0.666);     */
+    /* background: #7657e6; */
+}
+
+
+#head-quote p {
+    font-weight: bold;
+    font-family: 'Kanit';
+    color: #ffffff;
+}
+#head-quote {
+    display: block;
+    width: 70%;
+    border: 3px solid #fff;
+    background: rgba(159, 107, 232, 0.800);
+    margin: 0px auto;
+    text-align: center;
+    box-shadow:  0px 0px 100px #555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    color:#77cafa;
+}
+
+
+#counter {
+    margin: 0 auto; 
+    /* box-shadow: 0px 0px 10px #171717; */
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 1.3em;
+    text-shadow: 0px 3px 5px #000;
+}
+
+#counter-number {
+    font-size : 2em;
+    letter-spacing: 20px;
+    font-family: 'Kanit';
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#counter h3 {
+    color: #000;
+    text-shadow: none;
+    font-family: arial;
+}
+
+#pages {
+    text-align: center
+}
+
+#home {
+    background: url('../assets/images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 200vh;
+    /* margin-top: -70px; */
+    color: #fff;
+    font-size: 3em;
+}
+#goal {
+    background: url('../assets/images/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 200vh;
+    /* margin-top: -150px; */
+    color: #fff;
+    font-size: 3em;
+    
+}
+
+#home {
+    background: url('../assets/images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 200vh;
+    /* margin-top: -70px; */
+    color: #fff;
+    font-size: 3em;
+}
+
+#home h2, #home h5 {
+    padding:0px;
+    margin: 0px;
+}
+
+.info-suicide {
+    width: 70%;
+    text-align:justify;
+    margin: 0 auto  ;
+    font-size: .5em;
+    line-height:2rem;
+    background: rgba(68, 30, 121, 0.7);
+    padding: 35px;
+    color: #fff;
+    font-weight: bold;
+    /* text-shadow: 0px 5px 10px #fff; */
+    /* box-shadow: inset 0px 0px 100px #f0f; */
+}
+
+.info-suicide2 {
+    width: 70%;
+    text-align:justify;
+    margin: 0 auto  ;
+    font-size: .5em;
+    line-height:2rem;
+    background: rgba(53, 178, 255, 0.55);
+    padding: 35px;
+    color: #fff;
+    font-weight: bold;
+    /* text-shadow: 0px 5px 10px #fff; */
+    /* box-shadow: inset 0px 0px 100px #f0f; */
+}
+
+#goal .page-title {
+    color : #fff;
+    text-shadow: 0px 5px 5px #222;
+}
+
+.info-suicide3 h1 {
+    color: #000
+}
+
+
+.info-suicide3 {
+    width: 70%;
+    text-align:justify;
+    margin: 0 auto;
+    font-size: .7em;
+    line-height:2rem;
+    /* background: rgba(4, 238, 255, 0.618); */
+    background: linear-gradient(rgba(102, 191, 255, 0.8), rgba(86, 44, 237, 0.8));
+    padding: 35px;
+    color: #f6f2f2;
+    /* text-shadow: 0px 5px 5px #000; */
+    /* font-weight: bolder; */
+    /* box-shadow: inset 0px 0px 500px #111; */
+    /* text-shadow: 0px 5px 10px #fff; */
+    /* box-shadow: inset 0px 0px 100px #f0f; */
+}
+
+.italic {
+    font-style: italic;
+}
+
+#learn_more {
+    background: linear-gradient(#3af, #7657e6);
+    box-shadow: inset 0px 0px 50px #171717, 0px 10px 50px #3af;
+    border-radius: 25px;
+    width: 400px;
+    height: 100px;
+    color: rgb(162, 211, 246);
+    font-weight: 1000;
+    font-size: 1em;
+    border:none;
+    font-family: 'kanit';
+}
+
+#learn_more:hover {
+    background: linear-gradient(#3af, #7657e6);
+    box-shadow: inset 0px 0px 70px rgb(8, 21, 31), 0px 10px 80px #3af;
+    border-radius: 25px;
+    width: 400px;
+    height: 100px;
+    color: #fff;
+    font-size: 1.05em !important;
+    font-weight: 1000;
+    font-size: 1em;
+    border:none;
+    font-family: 'kanit';
+}
+
+
+#contact {
+    background: url('../assets/images/bg4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200vh;
+    /* margin-top: -200px; */
+    color: #fff;
+    font-size: 3em;
+}
+
+#contact h2 {
+    color: #111;
+    text-align: center;
+}
+
+.left-sect {
+    width: 49%;
+    background: rgba(68, 159, 215, 0.71);
+    padding: 5px;
+    color: #fff;
+    font-size: .6em;
+    float: left;
+    text-align: left;
+
+}
+
+.right-sect {
+    width: 49%;
+    background: rgb(118, 87, 230, 0.800);
+    padding: 5px;
+    color: #000;
+    font-size: 1em;
+    float: right;
+    font-family: 'Cairo';
+
+}
+
+
+#contact input {
+    padding: 10px;
+    width: 40%;
+    font-size: .7em;
+}
+#contact textarea {
+    padding: 10px;
+    width: 40%;
+    font-size: .9em;
+}
+
+
+.our-contact {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(173, 4, 235, 0.55);
+    font-size: 0.5em;
+    color:#000;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+#quoteGeneration {
+    color: #000;
+    font-family: arial;
+    font-size: 1.3em;    
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
