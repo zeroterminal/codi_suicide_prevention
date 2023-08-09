@@ -2,12 +2,12 @@
 const home             = document.getElementById("home");
 const goal             = document.getElementById("goal");
 const contact          = document.getElementById("contact");
-
+const get_educated     = document.getElementById("get_educated");
 // BUTTONS
 const home_button      = document.getElementById("home_button");
 const goal_button      = document.getElementById("goal_button");
 const contact_button   = document.getElementById("contact_button");
-
+const get_educated_button = document.getElementById("get_educated_button");
 // functions
 home_button.onclick = function() {
     document.getElementById("home").scrollIntoView("smooth");
@@ -21,6 +21,9 @@ contact_button.onclick = function() {
     document.getElementById("contact").scrollIntoView("smooth");
 }
 
+get_educated_button.onclick = function() {
+    document.getElementById("get_educated_button").scrollIntoView("smooth");
+}
 
 
 
