@@ -54,7 +54,7 @@ header ul li a:hover {
 
 .active-link {
     font-weight: bold;
-    text-shadow: 0px 5px 5px #333;
+    /* text-shadow: 0px 5px 5px #333; */
 }
 
 #top-banner {
@@ -209,6 +209,20 @@ header ul li a:hover {
     /* box-shadow: inset 0px 0px 100px #f0f; */
 }
 
+.info-suicide2 {
+    /* width: 70%;
+    text-align: justify;
+    margin: 0 auto;
+    line-height: 2rem; */
+    /* background: rgba(53, 178, 255, 0.55); */
+    /* padding: 35px;
+    color: #fff;
+    font-weight: bold; */
+    /* text-shadow: 0px 5px 10px #fff; */
+    /* box-shadow: inset 0px 0px 100px #f0f; */
+}
+
+
 .italic {
     font-style: italic;
 }
@@ -303,7 +317,8 @@ header ul li a:hover {
 }
 
 #quoteGeneration {
-    color: #000;
+    color: #fff;
+    text-shadow: 0px 0px 35px #fff;
     font-family: arial;
     font-size: 1.3em;
     width: 70%;
@@ -324,6 +339,7 @@ footer {
 
 #get-educated h2 {
     text-align: center;
+    font-size: 3em;
 }
 
 #get-educated h1 {
@@ -331,21 +347,46 @@ footer {
 }
 
 #get-educated {
-    display: block;
-    /* background: url('https://c4.wallpaperflare.com/wallpaper/257/786/520/fish-yin-and-yang-symbols-zen-koi-wallpaper-preview.jpg'); */
+    
+    background: url('assets/images/bg8.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
     height: 180vh;
     /* margin-top: -70px; */
-    color: #000;
-    font-size: 0.6em;
+    /* font-size: 0.6em; */
     box-shadow: inset 0px 0px 1000px #000;
-    font-family: monospace;
-    text-align: left;
-    background: linear-gradient(rgba(118, 87, 230, 0.800), rgba(50, 137, 255, 0.8));
+    /* font-family: monospace; */
+    /* text-align: left; */
+    
+    /* background: linear-gradient(rgba(118, 87, 230, 0.800), rgba(50, 137, 255, 0.8)); */
+    color: #fff;
+    font-size:1em;
 }
 
 .text-background {
-    background-color: rgba(255, 255, 255, 0.5);
+    /* background-color: rgba(255, 255, 255, 0.5); */
+}
+
+
+.flex-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.flex-box {
+    width: 25%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    margin: 5px;
+    border: 2px dashed #fff;
+    padding: 5% 10px 5% 10px;
+    background-color: rgba(86, 44, 237, 0.8);
+    
 }
