@@ -31,7 +31,7 @@ const counter_section = document.getElementById("counter");
 const counter_number  = document.getElementById("counter-number");
 
 
-let counter = 1000000;
+let counter = 699990;
 
 function suiciders() {
     let random = Math.floor(Math.random() * 2) + 1 ;
