@@ -1,7 +1,7 @@
 // PAGES
 const home             = document.getElementById("home");
 const goal             = document.getElementById("goal");
-const contact          = document.getElementById("contact");
+const contact          = document.getElementById("contact_page");
 const get_educated     = document.getElementById("get_educated");
 // BUTTONS
 const home_button      = document.getElementById("home_button");
@@ -18,11 +18,11 @@ goal_button.onclick = function() {
 }
 
 contact_button.onclick = function() {
-    document.getElementById("contact").scrollIntoView("smooth");
+    document.getElementById("contact_page").scrollIntoView("smooth");
 }
 
 get_educated_button.onclick = function() {
-    document.getElementById("get_educated_button").scrollIntoView("smooth");
+    document.getElementById("get_educated").scrollIntoView("smooth");
 }
 
 
