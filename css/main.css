@@ -338,16 +338,16 @@ footer {
     font-weight: bold !important ;
 }
 
-#get-educated h2 {
+#get_educated h2 {
     text-align: center;
     font-size: 3em;
 }
 
-#get-educated h1 {
+#get_educated h1 {
     text-align: center;
 }
 
-#get-educated {
+#get_educated {
     
     background: url('../assets/images/bg8.jpg');
     background-repeat: no-repeat;
@@ -434,6 +434,6 @@ footer {
     text-align: center;
 }
 
-#get-educated h2 {
+#get_educated h2 {
     text-shadow: 0px 5px 10px #000 !important;
 }
